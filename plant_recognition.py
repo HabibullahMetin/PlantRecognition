@@ -18,7 +18,7 @@ from shutil import copyfile
 import matplotlib.pyplot as plt
 import numpy as np
 
-local_zip = 'plants2.zip'
+local_zip = 'new plants.zip'
 zip_ref = zipfile.ZipFile(local_zip,'r')
 zip_ref.extractall("C:/Users/Habibullah/Desktop/Grad Project")
 zip_ref.close()
@@ -27,25 +27,32 @@ zip_ref.close()
 #liste = ["afelandra","aglaonema","aloe vera","antoryum", "areka palmiyesi",
 #        "atatürk çiçeği","deva tabanı","difenbahya çiçeği","kaktüs","paşa kılıcı"]
 
-liste = ["afrika meneksesi","aloe vera","antoryum","deve tabani","kaktus","kentia palmiyesi",
-         "kuskonmaz","para agaci","pasa kilici","yelken cicegi"]
+liste = ["acem borusu","afelandra","afrika meneksesi","aglaonema","aloe vera","anemon",
+         "antoryum","arap yasemini","areka palmiyesi","ask merdiveni","ataturk cicegi",
+         "baris cicegi","begonvil sarmasigi","begonya","dag palmiyesi","deve tabani",
+         "difenbahya","dua cicegi","flemengo","fulya bitkisi","gloksinyo",
+         "guzmanya","kaktus","kasimpati","katir tirnagi","kentia palmiyesi",
+         "kraton bitkisi","kumkuat agaci","kuskonmaz","orkide","orman gülü",
+         "para agaci","pasa kilici","petunya","sabin ardici","salon cami",
+         "sardunya cicegi","Schefflera","sikleman cicegi","sümbül","telgraf cicegi",
+         "yelken cicegi","yilbasi cicegi","yuka bitkisi","zakkum","zambak"]
          
 
 try :
-    os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/plants2/training")
-    os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/plants2/testing")
+    os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/new plants/training")
+    os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/new plants/testing")
 
 except OSError :
     pass
 
 for variety in liste :
     try :
-        os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/plants2/training/" + variety)
-        os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/plants2/testing/" + variety)
+        os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/new plants/training/" + variety)
+        os.mkdir("C:/Users/Habibullah/Desktop/Grad Project/new plants/testing/" + variety)
     except OSError :
         pass
 
-#Örnek 2 klasör görüntüleyelim.
+#Örnek 2 klasör görüntüleyelim. 
  
 #print(len(os.listdir("C:/Users/Habibullah/Desktop/Leaves Recognition/leaf_uci/training/Acer negundo")))
 #print(len(os.listdir("C:/Users/Habibullah/Desktop/Leaves Recognition/leaf_uci/testing/Acer palmatum")))
@@ -78,13 +85,13 @@ def split_data(SOURCE, TRAINING,TESTING,SPLIT_SIZE) :
 split_size = .8
 
 for name in liste :
-    SOURCE_DIR = "C:/Users/Habibullah/Desktop/Grad Project/plants2/" + name + "/"
-    TRAINING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/plants2/training/" + name + "/"
-    TESTING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/plants2/testing/" + name + "/"
+    SOURCE_DIR = "C:/Users/Habibullah/Desktop/Grad Project/new plants/" + name + "/"
+    TRAINING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/new plants/training/" + name + "/"
+    TESTING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/new plants/testing/" + name + "/"
     
     split_data(SOURCE_DIR,TRAINING_DIR,TESTING_DIR,split_size)
 
-TRAINING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/plants2/training/"
+TRAINING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/new plants/training/"
 training_datagen = ImageDataGenerator(
         rescale = 1./255,
         rotation_range=40,
@@ -100,7 +107,7 @@ training_generator = training_datagen.flow_from_directory(
         target_size = (300,300),
         class_mode = "categorical")
 
-TESTING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/plants2/testing/"
+TESTING_DIR = "C:/Users/Habibullah/Desktop/Grad Project/new plants/testing/"
 testing_datagen = ImageDataGenerator(rescale = 1./255)
 
 testing_generator = testing_datagen.flow_from_directory(
@@ -122,7 +129,7 @@ model = tf.keras.models.Sequential([
         tf.keras.layers.Flatten(),
         tf.keras.layers.Dropout(0.5),
         tf.keras.layers.Dense(1024, activation = "relu"),
-        tf.keras.layers.Dense(10, activation = "softmax")
+        tf.keras.layers.Dense(46, activation = "softmax")
         ])
     
 model.summary()
@@ -132,7 +139,7 @@ model.summary()
 model.compile(loss = "categorical_crossentropy", optimizer = RMSprop(lr=0.001), metrics = ['accuracy'])
 
 history = model.fit_generator(training_generator,
-                              epochs = 40,
+                              epochs = 2,
                               validation_data = testing_generator,
                               verbose = 1)
 
@@ -153,11 +160,11 @@ plt.plot(epochs, val_loss, 'b', "Validation Loss")
 plt.figure()
 
 
-keras_file="plant2.h5"
+keras_file="new plants.h5"
 model.save(keras_file)
 converter=lite.TocoConverter.from_keras_model_file(keras_file)
 tflite_model=converter.convert()
-open("plant2.tflite","wb").write(tflite_model)
+open("new plants.tflite","wb").write(tflite_model)
 
 
 #model.load_weights("plant.h5")
