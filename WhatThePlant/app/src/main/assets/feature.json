@@ -1,0 +1,391 @@
+{
+  "bitkiler" : [
+    {
+      "bitkiAdi" : "Afrika Menekşesi",
+      "sicaklik" : "18 ila 21 Derece Arası",
+      "sulama" : "Ayda Bir Defa",
+      "toprakTuru" : "Kumlu",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+	  "destekBesin" : "Fosforlu Gübre"
+    },
+    {
+      "bitkiAdi" : "Aloe Vera",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Ayda Bir Defa",
+      "toprakTuru" : "Kumlu ve Taşlı",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir defa",
+      "destekBesin" : "Gerek Duymaz"
+    },
+    {
+      "bitkiAdi" : "Antoryum",
+      "sicaklik" : "Oda Sıcaklığında",
+      "sulama" : "Toprak Nemli Kalmalı",
+      "toprakTuru" : "Humuslu",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Deve Tabanı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Toprak Nemli Kalmalı",
+      "toprakTuru" : "Alkali Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Senede Bir",
+      "destekBesin" : "Kompost Gübre"
+    },
+    {
+      "bitkiAdi" : "Kaktüs",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Toprak Kuruduğunda",
+      "toprakTuru" : "Taşlı Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "5-6 Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Kentia Palmiyesi",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Hafif Alkalili Toprak",
+      "gunesIsigi" : "Doğrudan  Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Özel Palmiye Besini"
+    },
+    {
+      "bitkiAdi" : "Kuşkonmaz",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Hafta Bir Defa",
+      "toprakTuru" : "Alkalili Olmayan Topraklar",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Üç Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Para Ağacı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Toprak Hafif Kuruduğunda",
+      "toprakTuru" : "Havadar Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "İki Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Paşa Kılıcı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Toprak Hafif Kuruduğunda",
+      "toprakTuru" : "Nötr veya Hafif Alkalii Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Genel  Amaçlı Besinler"
+    },
+    {
+      "bitkiAdi" : "Barış Çiçeği",
+      "sicaklik" : "10 ila 28 Derece Arası",
+      "sulama" : "Haftada 1-2 Defa",
+      "toprakTuru" : "Lifli ve Kumlu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Çiçek ve Yaprak Gübresi"
+    },
+    {
+      "bitkiAdi" : "Afelandra",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Aglaonema",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Hafta Bir Defa",
+      "toprakTuru" : "Humuslu ve Lifli",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "İki Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Areka Palmiyesi",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Torflu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Atatürk Çiçeği",
+      "sicaklik" : "10 ila 19 Derece Arası",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Yumuşak ve Torflu Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Difenbahya Çiçeği",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada 1-2 Defa",
+      "toprakTuru" : "Havadar Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Gerek Duymaz"
+    },
+    {
+      "bitkiAdi" : "Yılbaşı Çiçeği",
+      "sicaklik" : "14 ila 15 Derece Arası",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Vitamin"
+    },
+    {
+      "bitkiAdi" : "Gloksinya",
+      "sicaklik" : "18 ila 23 Derece Arası",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Her Yılda Bir",
+      "destekBesin" : "Orkide Besini"
+    },
+    {
+      "bitkiAdi" : "Guzmanya",
+      "sicaklik" : "18 ila 24 Derece Arası",
+      "sulama" : "5 Günde Bir",
+      "toprakTuru" : "Bol Torflu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Yuka Bitkisi",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Ayda İki Defa",
+      "toprakTuru" : "Tuzlu Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin"
+    },
+    {
+      "bitkiAdi" : "Dua Çiçeği",
+      "sicaklik" : "20 ila 23 Derece Arası",
+      "sulama" : "Toprak Yüzeyi Kuruduğunda",
+      "toprakTuru" : "Havadar Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Bitki Besini"
+    },
+    {
+      "bitkiAdi" : "Aşk Merdiveni",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde İki Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Acem Borusu",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Seçici Değil",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Arap Yasemini",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Seçici Değil",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Bengovil Sarmaşığı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Az Tuzlu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Kumkuat Ağacı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada 1-2 Defa",
+      "toprakTuru" : "Seçici Değil",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Salon Çamı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Asitli Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Katır Tırnağı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Seçici Değil",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Sabin Ardıcı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Seçici Değil",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "İki Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Telgraf Çiçeği",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Kumlu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Orman Gülü",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Asitli - Rutubetli Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Sardunya Çiçeği",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Orkide",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Kez",
+      "toprakTuru" : "Geçirimli Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Schefflera",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Kasımpatı",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Sıklamen Çiçeği",
+      "sicaklik" : "14 ila 30 derece arası",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Sıvı Gübre"
+    },
+    {
+      "bitkiAdi" : "Begonya Çiçeği",
+      "sicaklik" : "14 ila 20 derece arası",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Petunya Çiçeği",
+      "sicaklik" : "15 ila 35 Derece Arası",
+      "sulama" : "Haftada 1-5 Defa",
+      "toprakTuru" : "Hafif Asitli Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Gerek Duymaz"
+    },
+    {
+      "bitkiAdi" : "Fulya Çiçeği",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "3-4 Günde Bir",
+      "toprakTuru" : "Kumlu - Tinli Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Gerek Duymaz"
+    },
+    {
+      "bitkiAdi" : "Kraton Bitkisi",
+      "sicaklik" : "5 - 25 Derece Arası",
+      "sulama" : "Haftada Bir Defa",
+      "toprakTuru" : "Hafif Asitli",
+      "gunesIsigi" : "Dolaylı Olarak",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Zambak",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Günde Bir Defa",
+      "toprakTuru" : "Kumlu - Humuslu Toprak",
+      "gunesIsigi" : "Doğrudan Alabilir",
+      "saksiDegisim" : "Yılda İki Defa",
+      "destekBesin" : "Vitamin ve Mineral"
+    },
+    {
+      "bitkiAdi" : "Zakkum",
+      "sicaklik" : "-4 ila 25 Derece Arası",
+      "sulama" : "Toprak Kuruduğunda",
+      "toprakTuru" : "Humusça Fakir",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "İki Yılda Bir",
+      "destekBesin" : "Hayvan Gübresi"
+    },
+    {
+      "bitkiAdi" : "Sümbül",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada İki Defa",
+      "toprakTuru" : "Kumlu - Humuslu Toprak",
+      "gunesIsigi" : "Dolaylı Olarak",
+      "saksiDegisim" : "2-3 Yılda Bir",
+      "destekBesin" : "Bitki Besini ve Gübre"
+    },
+    {
+      "bitkiAdi" : "Anemon Çiçeği",
+      "sicaklik" : "Oda Sıcaklığı",
+      "sulama" : "Haftada 1-2 Defa",
+      "toprakTuru" : "Rutubetli Toprak",
+      "gunesIsigi" : "Dolaylı Alabilir",
+      "saksiDegisim" : "Yılda Bir Defa",
+      "destekBesin" : "Gerek Duymaz"
+    }
+  ]
+}
